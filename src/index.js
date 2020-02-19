@@ -8,7 +8,7 @@ const port = 3003
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
-app.get('/', (req, res) => res.send('Hello World! I am Manuela'))
+app.get('/', (req, res) => res.send('Hello World! I am Manuela 2'))
 
 app.use('/user', userRouter)
 
